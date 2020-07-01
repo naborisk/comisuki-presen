@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/*
+********************************************************************
+記事本文の基本定義
+********************************************************************
+*/
+
+/* -- ▼ 記事本文の指定 ▼ -- */
+#article-body-inner p{margin-bottom:1em;line-height:1.6em;color:#444;font-size:1.2em;letter-spacing: 0.05em;text-indent:.5em;}
+#article-body-inner.fromjapan{font-family: 'Lora', serif;}
+#article-body-inner.fromjapan p{text-indent:0;}
+#article-body-inner.print p{color:#333;}
+
+/* -- ▼ 本文見出し ▼ -- */
+#article-body-inner h4{border-top:solid 1px #918b8a;font-size:20px;font-weight:bold;padding:5px 0 0 10px;margin:1em 0;clear:both;font-size:1.6em;letter-spacing: 0.05em;}
+#article-body-inner h4.fromjapan{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;}
